@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<form id="formr" action="taskman/registro.php" method="POST">
+	<p id="titulor">REGISTRO</p>
+  <p><a href="index.html">SISTEMA ACADÉMICO</a></p>
+		<div>NOMBRE</div>
+		<input name="nombre" type="name" placeholder="Vanesssa C." required/>
+
+		<div>CORREO</div>
+		<input name="correo" type="email" placeholder="example@email.com" required/> 
+
+		<div>TIPO</div>
+		<select name="tipo_rol">
+			<option value="administrativo">ADMINISTRATIVO</option>
+			<option value="alumno">ALUMNO</option>
+
+		</select>
+
+		<hr>
+		<div>USERNAME</div>
+		<input name="user" type="name" placeholder="username" required/> 
+
+		<div>CONTRASEÑA</div>
+		<input name="contra" type="PASSWORD" placeholder="********" required/>
+		<br>
+		<button type="submit" name="boton" value="registrar">Registrar</button><br><br>
+		<a href="index.php" title="login "><i>Logear</i></a>
+	</form>
+</body>
+	<link rel="stylesheet" type="text/css" href="estilos/css/estilor.css">
+	<link rel="stylesheet" type="text/css" href="estilos/css/ionMediaQuery.css">
+</html>
