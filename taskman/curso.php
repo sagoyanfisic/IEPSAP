@@ -5,15 +5,7 @@
 	<meta  charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="css/task.css">
 	<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap.min.css'>
-	<script type="text/javascript">
-// Carousel Auto-Cycle
-  $(document).ready(function() {
-    $('.carousel').carousel({
-      interval: 6000
-    })
-  });
-
-	</script>
+	
 </head>
 <body>
 	<div id="cabecera">
@@ -173,6 +165,15 @@
 </div><!-- /.container -->
 <strong></p>    
 </div>
+<script type="text/javascript">
+// Carousel Auto-Cycle
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 6000
+    })
+  });
+
+	</script>
 	<link rel="stylesheet" type="text/css" href="../estilos/css/estilor.css">
 	<link rel="stylesheet" type="text/css" href="../estilos/css/ionMediaQuery.css">
 </body>
