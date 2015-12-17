@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>:::TASKMAN-PERSONAL:::</title>
+	<title>::::::</title>
 	<meta  charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="css/task.css">
+	<script type="text/javascript">
+// Carousel Auto-Cycle
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 6000
+    })
+  });
+
+	</script>
 </head>
+
 <body>
 	<div id="cabecera">
 		<p id="bienvenidot"><a href="personal.php" >←</a> Bienvenido, <b></b></p>
